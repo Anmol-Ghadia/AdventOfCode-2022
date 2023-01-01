@@ -1,7 +1,8 @@
+# Reading input
+with open(r'Day 1) Calorie Counting\1_puzzle_input.txt','r') as f:
+    data = f.read().split('\n')
 
 # Part 1
-with open('Day 1) Calorie Counting\puzzle_input.txt','r') as f:
-    data = f.read().split('\n')
 
 elf_calories = []
 current_elf = 0
